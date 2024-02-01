@@ -1,0 +1,37 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class GradeBookTest {
+
+	@Test
+	void testAddScore() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetScoreSize() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSum() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMinimum() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testFinalScore() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testToString() {
+		fail("Not yet implemented");
+	}
+
+}

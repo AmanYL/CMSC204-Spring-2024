@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GradeBookTest" project="Lab1_CMSC204" tests="6" started="6" failures="2" errors="0" ignored="0">
+  <testsuite name="GradeBookTest" time="0.069" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]">
+    <testcase name="testSum" classname="GradeBookTest" time="0.029" displayname="testSum()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testSum()]"/>
+    <testcase name="testGetScoreSize" classname="GradeBookTest" time="0.001" displayname="testGetScoreSize()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testGetScoreSize()]"/>
+    <testcase name="testToString" classname="GradeBookTest" time="0.026" displayname="testToString()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testToString()]">
+      <failure>
+        <expected>true</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)&#13;
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)&#13;
+	at GradeBookTest.testToString(GradeBookTest.java:72)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testAddScore" classname="GradeBookTest" time="0.005" displayname="testAddScore()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testAddScore()]">
+      <failure>
+        <expected>true</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)&#13;
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)&#13;
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)&#13;
+	at GradeBookTest.testAddScore(GradeBookTest.java:40)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testMinimum" classname="GradeBookTest" time="0.001" displayname="testMinimum()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testMinimum()]"/>
+    <testcase name="testFinalScore" classname="GradeBookTest" time="0.003" displayname="testFinalScore()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testFinalScore()]"/>
+  </testsuite>
+</testrun>

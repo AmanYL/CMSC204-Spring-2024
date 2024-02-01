@@ -1,0 +1,15 @@
+public class PasswordCheckerUtility {
+	
+	//Constructor
+	public PasswordCheckerUtility() {
+		
+	}
+	
+	//Methods
+	public static void comparePasswords(String password, String passwordConfirm) throws UnmatchedException
+	{
+		
+	}
+	
+
+}

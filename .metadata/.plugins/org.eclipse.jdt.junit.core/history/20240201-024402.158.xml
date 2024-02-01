@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GradeBookTest" project="Lab1_CMSC204" tests="6" started="6" failures="0" errors="6" ignored="0">
+  <testsuite name="GradeBookTest" time="0.002" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]">
+    <testcase name="testSum" classname="GradeBookTest" time="0.001" displayname="testSum()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testSum()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.sum()" because "this.g1" is null&#13;
+	at GradeBookTest.testSum(GradeBookTest.java:51)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testGetScoreSize" classname="GradeBookTest" time="0.0" displayname="testGetScoreSize()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testGetScoreSize()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.getScoreSize()" because "this.g1" is null&#13;
+	at GradeBookTest.testGetScoreSize(GradeBookTest.java:45)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testToString" classname="GradeBookTest" time="0.0" displayname="testToString()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testToString()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.toString()" because "this.g3" is null&#13;
+	at GradeBookTest.testToString(GradeBookTest.java:69)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testAddScore" classname="GradeBookTest" time="0.0" displayname="testAddScore()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testAddScore()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.toString()" because "this.g1" is null&#13;
+	at GradeBookTest.testAddScore(GradeBookTest.java:37)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testMinimum" classname="GradeBookTest" time="0.0" displayname="testMinimum()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testMinimum()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.minimum()" because "this.g1" is null&#13;
+	at GradeBookTest.testMinimum(GradeBookTest.java:57)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testFinalScore" classname="GradeBookTest" time="0.0" displayname="testFinalScore()" uniqueid="[engine:junit-jupiter]/[class:GradeBookTest]/[method:testFinalScore()]">
+      <error>java.lang.NullPointerException: Cannot invoke "GradeBook.finalScore()" because "this.g1" is null&#13;
+	at GradeBookTest.testFinalScore(GradeBookTest.java:63)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
