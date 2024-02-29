@@ -4,7 +4,7 @@
 public class DataSetGen <T extends Measurable>
 {
    private double sum;
-   private Measurable maximum;
+   private T maximum;
    private int count;
 
    /**
@@ -43,7 +43,7 @@ public class DataSetGen <T extends Measurable>
       Gets the largest of the added data.
       @return the maximum or 0 if no data has been added
    */
-   public Measurable getMaximum()
+   public T getMaximum()
    {
       return maximum;
    }
