@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"BasicDoubleLinkedList"},{"p":"<Unnamed>","l":"BasicDoubleLinkedList.DoubleLinkedListIterator"},{"p":"<Unnamed>","l":"BasicDoubleLinkedList.Node"}]
